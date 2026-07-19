@@ -1,0 +1,10 @@
+app.tar.gz
+*.psd
+*.mp4
+apps/pocketbase/pocketbase
+node_modules/
+dist/
+.env
+.DS_Store
+apps/web/backups/
+apps/pocketbase/pb_data/
