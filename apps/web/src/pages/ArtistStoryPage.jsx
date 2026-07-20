@@ -75,10 +75,34 @@ function ArtistStoryPage() {
                   Where it all started
                 </h2>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  ReplayNeonPulse emerged from a deep fascination with the intersection of cinematic storytelling and electronic music production. What began as late-night experiments in a small home studio evolved into a distinctive sonic identity that resonates with listeners across the globe.
+                  Behind ReplayNeonPulse are two people brought together by both love and music.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  Many years ago, their shared passion for electronic music turned into a lifelong journey. That journey eventually led them to say &quot;I do&quot; and build a life together, with music always at the heart of everything they created.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  DJ Replay performed for years at clubs, festivals, and events across Europe, Asia, and South America. Together, they also produced their own tracks and delivered live performances that left lasting memories for everyone who experienced them.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  In the heart of Zurich, they founded and operated their own music and dance club, creating a home for DJs, artists, and unforgettable nights filled with electronic music.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  After many exciting years in the scene, life took them in a different direction. They moved to Brazil, where they now enjoy a quieter life surrounded by nature on a small farm.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  But some passions never fade.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  The music was always there; waiting.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  Today, they return with a fresh vision, deeper sound, and renewed creative energy under a new name: ReplayNeonPulse.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  This isn&apos;t about reliving the past.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80">
-                  The name ReplayNeonPulse captures the pulse of neon-lit nights and emotional resonance—where classical orchestration meets modern synthesis, where silence holds as much power as sound, and where each composition tells a story without words.
+                  It&apos;s about writing the next chapter.
                 </p>
               </div>
 
@@ -109,10 +133,22 @@ function ArtistStoryPage() {
                   The creative approach
                 </h2>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  Every ReplayNeonPulse composition begins with a feeling, a moment, or a story that demands to be told through sound. The production process is intentionally slow and deliberate, allowing each element to find its perfect place in the sonic landscape.
+                  Every ReplayNeonPulse production starts with emotion.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  A deep groove. A hypnotic melody. A bassline that moves both body and mind.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  Each track is carefully crafted layer by layer, balancing energy, atmosphere, and emotion to create a sound that feels timeless rather than trend-driven.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  Inspired by the world&apos;s electronic underground, ReplayNeonPulse delivers music designed for late nights, open minds, and unforgettable moments.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  This is more than music.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80">
-                  Drawing inspiration from film scores, ambient pioneers, and modern electronic producers, ReplayNeonPulse creates music that exists in the space between genres—too cinematic for the club, too rhythmic for pure ambient, yet perfectly suited for those who seek depth in their listening experience.
+                  It&apos;s a journey through rhythm, emotion, and sound.
                 </p>
               </div>
 
@@ -125,10 +161,19 @@ function ArtistStoryPage() {
                   Connecting with listeners
                 </h2>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  The most rewarding aspect of this journey has been hearing how the music resonates with people around the world. From late-night study sessions to meditation practices, from creative work to emotional processing—ReplayNeonPulse's soundscapes have found their way into the meaningful moments of listeners' lives.
+                  Music has always been about creating connections.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  ReplayNeonPulse isn&apos;t just about beats or melodies—it&apos;s about sharing moments, emotions, and energy with people who feel the same passion for electronic music.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  Whether it&apos;s on a dancefloor, through a livestream, or simply listening with headphones, every track is created with the hope of inspiring, moving, and connecting with listeners around the world.
+                </p>
+                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
+                  This is only the beginning of the journey.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80">
-                  This connection drives the continued evolution of the sound, pushing boundaries while staying true to the core mission: creating music that matters, music that moves, music that stays with you long after the final note fades.
+                  And we look forward to sharing every new chapter with you.
                 </p>
               </div>
             </div>
