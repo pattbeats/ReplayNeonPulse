@@ -72,31 +72,16 @@ function ArtistStoryPage() {
                   <span className="text-sm font-medium">The Beginning</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-snug">
-                  Where it all started
+                  The People Behind the Sound
                 </h2>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  Behind ReplayNeonPulse are two people brought together by both love and music.
+                  Behind ReplayNeonPulse are two artists with years of experience creating electronic music and unforgettable live performances.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  Many years ago, their shared passion for electronic music turned into a lifelong journey. That journey eventually led them to say &quot;I do&quot; and build a life together, with music always at the heart of everything they created.
+                  DJ Replay performed at clubs, festivals, and events across Europe, Asia, and South America. Together, they also founded and operated their own music and dance club in the heart of Zurich—a place where electronic music brought people together.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  DJ Replay performed for years at clubs, festivals, and events across Europe, Asia, and South America. Together, they also produced their own tracks and delivered live performances that left lasting memories for everyone who experienced them.
-                </p>
-                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  In the heart of Zurich, they founded and operated their own music and dance club, creating a home for DJs, artists, and unforgettable nights filled with electronic music.
-                </p>
-                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  After many exciting years in the scene, life took them in a different direction. They moved to Brazil, where they now enjoy a quieter life surrounded by nature on a small farm.
-                </p>
-                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  But some passions never fade.
-                </p>
-                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  The music was always there; waiting.
-                </p>
-                <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  Today, they return with a fresh vision, deeper sound, and renewed creative energy under a new name: ReplayNeonPulse.
+                  Today, they return with a fresh vision, deeper sound, and renewed creative energy under a new name.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
                   This isn&apos;t about reliving the past.
