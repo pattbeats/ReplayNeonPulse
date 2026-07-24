@@ -1,9 +1,7 @@
-
 import React, { useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
-import pb from '@/lib/pocketbaseClient';
 import { Mail } from 'lucide-react';
 import FormFieldError from '@/components/FormFieldError';
 import { validateNewsletterEmail, validationMessages } from '@/lib/validationMessages';
@@ -26,19 +24,30 @@ function NewsletterForm({ className = "" }) {
     setIsLoading(true);
 
     try {
-      await pb.collection('newsletter_signups').create({
-        email: email.trim()
-      }, { $autoCancel: false });
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email: email.trim() }),
+      });
+
+      const data = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        if (response.status === 400 && typeof data.error === 'string' && data.error) {
+          setError(data.error);
+        } else {
+          toast.error(validationMessages.genericError);
+        }
+        return;
+      }
 
       toast.success(validationMessages.subscribeSuccess);
       setEmail('');
       setError('');
-    } catch (submitError) {
-      if (submitError.data?.email?.message?.includes('already exists')) {
-        setError(validationMessages.subscribeDuplicate);
-      } else {
-        toast.error(validationMessages.genericError);
-      }
+    } catch {
+      toast.error(validationMessages.genericError);
     } finally {
       setIsLoading(false);
     }
