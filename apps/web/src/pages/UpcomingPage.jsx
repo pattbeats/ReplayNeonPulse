@@ -10,19 +10,19 @@ import NewsletterForm from '@/components/NewsletterForm';
 function UpcomingPage() {
   const upcoming = [
     {
-      title: 'Cosmic Drift',
+      title: 'High-Tech Minimal',
       releaseDate: 'July 2026',
-      description: 'An ambient journey through celestial soundscapes. Prepare for a transcendent listening experience.',
+      description: 'Prepare for a transcendent listening experience.',
       status: 'In Production'
     },
     {
-      title: 'Urban Pulse',
+      title: 'Art of Minimal Groove',
       releaseDate: 'August 2026',
-      description: 'High-energy beats meet electronic production. A fusion of street culture and orchestral grandeur.',
+      description: 'High-energy beats meet electronic production.',
       status: 'Mixing'
     },
     {
-      title: 'Echoes of Tomorrow',
+      title: 'Double Bass Groove',
       releaseDate: 'October 2026',
       description: 'A concept album exploring themes of time, memory, and the future. The most ambitious project yet.',
       status: 'Pre-Production'
