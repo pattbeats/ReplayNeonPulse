@@ -53,12 +53,32 @@ function ContactPage() {
     setIsSubmitting(true);
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name.trim(),
+          email: formData.email.trim(),
+          message: formData.message.trim(),
+        }),
+      });
+
+      if (!response.ok) {
+        toast.error(
+          'Your message could not be sent. Please try again or email us directly at studio@replayneonpulse.com.'
+        );
+        return;
+      }
+
       toast.success(validationMessages.messageSent);
       setFormData({ name: '', email: '', message: '' });
       setErrors({});
     } catch {
-      toast.error(validationMessages.genericError);
+      toast.error(
+        'Your message could not be sent. Please try again or email us directly at studio@replayneonpulse.com.'
+      );
     } finally {
       setIsSubmitting(false);
     }
