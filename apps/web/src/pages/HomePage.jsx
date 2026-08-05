@@ -186,10 +186,9 @@ function HomePage() {
           </div>
           <div className="max-w-5xl mx-auto">
             <VideoTeaser
-              videoUrl="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              thumbnailUrl="/videos/video-coming-soon.jpg"
-              thumbnailWebpUrl="/videos/video-coming-soon.webp"
-              title="ReplayNeonPulse - Live Mix by DJ Replay (Coming Soon)"
+              videoUrl="https://www.youtube.com/embed/RqZEpVAaDCs"
+              thumbnailUrl="/videos/replayneonpulse-live-mix-thumbnail.jpg"
+              title="DJ ReplayNeonPulse | Live Mix | Deep Bass & Hypnotic Minimal Techno"
             />
           </div>
         </div>

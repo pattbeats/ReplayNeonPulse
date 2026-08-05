@@ -7,17 +7,17 @@ function VideoTeaser({ videoUrl, thumbnailUrl, thumbnailWebpUrl, title }) {
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
-    <div className="relative w-full aspect-video rounded-2xl overflow-hidden atmospheric-glow">
+    <div className="relative w-full aspect-video rounded-2xl overflow-hidden atmospheric-glow bg-black">
       {!isPlaying ? (
         <>
-          <picture className="block size-full">
+          <picture className="block size-full bg-black">
             {thumbnailWebpUrl && (
               <source srcSet={thumbnailWebpUrl} type="image/webp" />
             )}
             <img
               src={thumbnailUrl}
               alt={title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain bg-black"
               decoding="async"
             />
           </picture>
@@ -38,6 +38,7 @@ function VideoTeaser({ videoUrl, thumbnailUrl, thumbnailWebpUrl, title }) {
           className="w-full h-full"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          referrerPolicy="strict-origin-when-cross-origin"
         />
       )}
     </div>
