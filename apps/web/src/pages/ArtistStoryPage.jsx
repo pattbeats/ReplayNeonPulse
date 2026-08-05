@@ -121,19 +121,19 @@ function ArtistStoryPage() {
                   Every ReplayNeonPulse production starts with emotion.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  A deep groove. A hypnotic melody. A bassline that moves both body and mind.
+                  Deep groove. hypnotic minmal techno.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
                   Each track is carefully crafted layer by layer, balancing energy, atmosphere, and emotion to create a sound that feels timeless rather than trend-driven.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
-                  Inspired by the world&apos;s electronic underground, ReplayNeonPulse delivers music designed for late nights, open minds, and unforgettable moments.
+                  Inspired by the world&apos;s electronic underground, ReplayNeonPulse delivers music designed for open minds, and unforgettable moments.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80 mb-6">
                   This is more than music.
                 </p>
                 <p className="text-lg leading-relaxed text-foreground/80">
-                  It&apos;s a journey through rhythm, emotion, and sound.
+                  It&apos;s a journey through rhythm, emotion, and groovy sound.
                 </p>
               </div>
 

@@ -79,7 +79,7 @@ function HomePage() {
               Two creators. One sound vision.
             </h2>
             <p className="text-base sm:text-lg leading-relaxed text-foreground/75 max-w-2xl mx-auto">
-              Replay and NeonPulse are two creators connected by a passion for deep, driving and minimal electronic music. Different roles. One shared mission: music that moves, connects and stays with you.
+              Replay and NeonPulse are two creators connected by a passion for deep, driving and hypnotic minimal techno.
             </p>
           </div>
 

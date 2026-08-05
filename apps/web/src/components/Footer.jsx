@@ -20,7 +20,7 @@ function Footer() {
           <div className="max-w-md space-y-5">
             <BrandLogo size="lg" stacked />
             <p className="replayneonpulse-tagline text-base md:text-lg text-foreground/70 leading-relaxed">
-              Deep bass. Hypnotic energy.
+              Deep Bass. Hypnotic Minmal Techno.
             </p>
           </div>
 
