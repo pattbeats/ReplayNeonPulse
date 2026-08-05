@@ -33,7 +33,7 @@ function VideoTeaser({ videoUrl, thumbnailUrl, thumbnailWebpUrl, title }) {
         </>
       ) : (
         <iframe
-          src={videoUrl}
+          src={`${videoUrl}${videoUrl.includes('?') ? '&' : '?'}autoplay=1`}
           title={title}
           className="w-full h-full"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
