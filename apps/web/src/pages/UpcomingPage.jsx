@@ -10,8 +10,8 @@ import NewsletterForm from '@/components/NewsletterForm';
 function UpcomingPage() {
   const upcoming = [
     {
-      title: 'High-Tech Minimal',
-      releaseDate: 'July 2026',
+      title: 'Hypnotic Minimal',
+      releaseDate: 'September 2026',
       description: 'Prepare for a transcendent listening experience.',
       status: 'In Production'
     },
