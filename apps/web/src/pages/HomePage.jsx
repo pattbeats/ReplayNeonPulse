@@ -50,7 +50,7 @@ function HomePage() {
             NeonPulse
             </h1>
             <p className="hero-tagline replayneonpulse-tagline text-xl sm:text-2xl md:text-3xl lg:text-4xl text-foreground/85 mb-8 md:mb-10 max-w-lg leading-snug">
-             Electronic journeys beyond the ordinary
+            Hypnotic Minimal Techno
             </p>
             <div className="hero-cta flex flex-col sm:flex-row gap-4 justify-start items-stretch sm:items-center">
               <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 active:scale-[0.98]">
