@@ -54,7 +54,7 @@ function HomePage() {
             </p>
             <div className="hero-cta flex flex-col sm:flex-row gap-4 justify-start items-stretch sm:items-center">
               <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 active:scale-[0.98]">
-                <Link to="/upcoming">Explore Music</Link>
+                <a href="#latest-live-mix">Explore Music</a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-border hover:bg-muted transition-all duration-200 active:scale-[0.98]">
                 <Link to="/story">Discover the Story</Link>
@@ -178,7 +178,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="py-24 bg-muted">
+      <section id="latest-live-mix" className="scroll-mt-24 py-24 bg-muted">
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Latest Live Mix</h2>
@@ -188,6 +188,7 @@ function HomePage() {
             <VideoTeaser
               videoUrl="https://www.youtube.com/embed/RqZEpVAaDCs"
               thumbnailUrl="/videos/replayneonpulse-live-mix-thumbnail.jpg"
+              thumbnailWebpUrl="/videos/replayneonpulse-live-mix-thumbnail.webp"
               title="DJ ReplayNeonPulse | Live Mix | Deep Bass & Hypnotic Minimal Techno"
             />
           </div>

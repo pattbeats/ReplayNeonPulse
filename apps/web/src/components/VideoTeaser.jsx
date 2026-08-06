@@ -26,9 +26,9 @@ function VideoTeaser({ videoUrl, thumbnailUrl, thumbnailWebpUrl, title }) {
             variant="ghost"
             size="icon"
             aria-label="Play video"
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-white/25 backdrop-blur-sm border border-white/50 text-white hover:bg-white/35 hover:text-white hover:border-white/70 shadow-[0_0_24px_rgba(255,255,255,0.25)] transition-all duration-300 active:scale-[0.98]"
+            className="absolute top-[64%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[72px] h-[50px] rounded-xl bg-[#FF0000] hover:bg-[#CC0000] text-white border-0 shadow-lg shadow-black/40 transition-all duration-300 active:scale-[0.98]"
           >
-            <Play className="w-8 h-8 ml-0.5 fill-white/30" />
+            <Play className="w-8 h-8 ml-0.5 fill-white" strokeWidth={0} />
           </Button>
         </>
       ) : (
